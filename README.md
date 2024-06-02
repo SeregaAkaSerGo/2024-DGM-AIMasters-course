@@ -46,14 +46,12 @@ The course is accompanied by practical tasks that allow you to understand the pr
 | 10 | April, 17 | <b>Lecture 10:</b> Denoising score matching. Noise Conditioned Score Network (NCSN). Gaussian diffusion process: forward + reverse. | [slides](lectures/lecture10/Lecture10.pdf) |
 |  |  | <b>Seminar 10:</b> StyleGAN. | [slides](seminars/seminar10/StyleGAN.ipynb) |
 | 11 | April, 24 | <b>Lecture 11:</b> Gaussian diffusion model as VAE, derivation of ELBO. Reparametrization of gaussian diffusion model. | [slides](lectures/lecture11/Lecture11.pdf) |
-|  |  | <b>Seminar 11:</b> Gaussian diffusion process basics. |
+|  |  | <b>Seminar 11:</b> Noise Conditioned Score Network (NCSN). Gaussian diffusion model as VAE. | [slides](seminars/seminar11/seminar11.ipynb) |
 | 12 | May, 8 | <b>Lecture 12:</b> Denoising diffusion probabilistic model (DDPM): overview. Denoising diffusion as score-based generative model. Model guidance: classifier guidance, classfier-free guidance. | [slides](lectures/lecture12/Lecture12.pdf) |
-|  |  | <b>Seminar 12:</b> Fast samplers: iDDPM and DDIM |  |
+|  |  | <b>Seminar 12:</b> Denoising diffusion probabilistic model (DDPM). Denoising Diffusion Implicit Models (DDIM). | [slides](seminars/seminar11/seminar11.ipynb) |
+| 13 | May, 15 | <b>Lecture 13:</b> SDE basics. Kolmogorov-Fokker-Planck equation. Probability flow ODF. Reverse SDE. Variance Preserving and Variance Exploding SDEs. | [slides](lectures/lecture13/Lecture13.pdf) |
+|  |  | <b>Seminar 13:</b> Guidance. CLIP, GLIDE, DALL-E 2, Imagen, Latent Diffusion Model. | [slides](seminars/seminar13/seminar13.ipynb) |
 <!---
-| 13 | May, 15 | <b>Lecture 13:</b> Kolmogorov-Fokker-Planck equation. SDE basics. Variance Preserving and Variance Exploding SDEs. |  |
-|  |  | <b>Seminar 13:</b> Noise Conditioned Score Network |  |
-| 14 | May, 22 | <b>Lecture 14:</b>  |  |
-|  |  | <b>Seminar 14:</b> TBA |  |
 -->
 
 ## Homeworks
@@ -64,8 +62,8 @@ The course is accompanied by practical tasks that allow you to understand the pr
 | 3 | March, 13 | March, 27 | <ol><li>Theory (IWAE theory, MI in ELBO surgery, Gumbel-Max trick).</li><li>ResNetVAE on CIFAR10.</li><li>VQ-VAE with PixelCNN prior.</li></ol> | [![Open In Github](https://img.shields.io/static/v1.svg?logo=github&label=Repo&message=Open%20in%20Github&color=lightgrey)](homeworks/hw3.ipynb)<br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r-isachenko/2024-DGM-AIMasters-course/blob/main/homeworks/hw3.ipynb) |
 | 4 | March, 27 | April, 17 | <ol><li>Theory (Least Squares GAN, Conjugate functions, FID for Normal distributions).</li><li>WGAN/WGAN-GP on CIFAR10.</li><li>Inception Score and FID.</li></ol> | [![Open In Github](https://img.shields.io/static/v1.svg?logo=github&label=Repo&message=Open%20in%20Github&color=lightgrey)](homeworks/hw4.ipynb)<br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r-isachenko/2024-DGM-AIMasters-course/blob/main/homeworks/hw4.ipynb) |
 | 5 | April, 17 | May, 8 | <ol><li>Theory (Gaussian diffusion, Implicit score matching).</li><li>Denoising score matching on 2D data.</li><li>NCSN on MNIST.</li></ol> | [![Open In Github](https://img.shields.io/static/v1.svg?logo=github&label=Repo&message=Open%20in%20Github&color=lightgrey)](homeworks/hw5.ipynb)<br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r-isachenko/2024-DGM-AIMasters-course/blob/main/homeworks/hw5.ipynb) |
-<!---
 | 6 | May, 8 | May, 22 | <ol><li>Theory (Classifier guidance, spaced diffusion, KFP theorem).</li><li>DDPM on 2d data.</li><li>DDPM on MNIST.</li></ol> |  [![Open In Github](https://img.shields.io/static/v1.svg?logo=github&label=Repo&message=Open%20in%20Github&color=lightgrey)](homeworks/hw6.ipynb)<br>[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/r-isachenko/2024-DGM-AIMasters-course/blob/main/homeworks/hw6.ipynb) |
+<!---
 -->
 
 ## Game rules
